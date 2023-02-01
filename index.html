@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password Generator</title>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "sub-container">
+                <div class="main">
+                  <p class="first-line">Generate a</p>
+                  <p class="second-line">random password</p>
+                  <p class="third-line">Never use an insecure password again.</p>
+                  <button id="generate" onclick="Generate()">Generate passwords</button>  
+                </div>
+                <hr/>
+                <div class = "output">
+                    <div class = "first-password">         
+                        <p id="pass1">Password1</p>
+                        <button id="copy-first-password" onclick="copyFirstPassword()">COPY</button>     
+                    </div>
+                    <div class = "second-password">    
+                        <p id="pass2">Password2</p>
+                        <button id="copy-second-password" onclick="copySecondPassword()">COPY</button> 
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </body>
+    <script src="./index.js"></script>
+</html>
